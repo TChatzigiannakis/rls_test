@@ -1,10 +1,10 @@
-#![allow(dead_code)]
+mod some_type;
 
-mod program;
-
-use program::Program;
+use some_type::SomeType;
 
 fn main() {
-    let p = Program::new();
+    let p = SomeType::new();
     p.do_nothing();
+
+    SomeType::main2();
 }
