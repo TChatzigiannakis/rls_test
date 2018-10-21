@@ -1,0 +1,6 @@
+[package]
+name = "rls_test"
+version = "0.1.0"
+authors = ["Theodoros Chatzigiannakis <tchatzigiannakis@gmail.com>"]
+
+[dependencies]
